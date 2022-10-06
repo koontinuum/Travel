@@ -1,0 +1,664 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.preview__link {
+    margin-right: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.preview__link:hover {
+    font-weight: 450;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.right__content {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.right__content h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2C2C2C;
+}
+.main{
+    height: 110vh;
+    background-image: url(./images/hero-banner\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 50px 0px 50px;
+    position:relative ;
+}
+.main .main__texts h1{
+    padding-top: 15%;
+    padding-left: 10%;
+    width: 60%;
+    font-style: normal;
+font-weight: 700;
+font-size: 84px;
+line-height: 112px;
+color: #2C2C2C;
+}
+.main .main__texts button{
+    padding: 10px 30px;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+border: 1px solid #FF715B;
+background: #FF715B;;
+color: white;
+}
+.destinationfirst{
+    display: flex;
+    
+}
+.destinationfirst .arrowleft{
+    border: 1px solid #FF715B;
+    background: #FF715B;
+    width: 20px;
+    height: 20px;
+}
+.destinationfirst .arrowright{
+    margin-left: 15px;
+    border: 1px solid #F5EBE9;
+    background: white;
+    width: 20px;
+    height: 20px;
+}
+.destinationfirst{
+    margin-top: 22%;
+}
+.lineshape1{
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+.destinationfirst h1{
+    color: #FF715B;
+    margin-left: 20px;
+}
+.destination{
+    width: 150vh;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.destination h1{
+    width: fit-content;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #A79997;
+}
+.destination h2{
+    width: fit-content;
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+
+color: #FF715B;
+
+}
+.catalog .container{
+    width: 70%;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.catalog .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.catalog .container .catalogleft{
+    margin-bottom: 25px;
+    text-align: center;
+}
+.catalog .container .catalogcenterleft{
+    margin-left: 30px;
+    text-align: center;
+}
+.catalog .container .catalogcenterright{
+    margin-left: 30px;
+    text-align: center;
+}
+.catalog .container .catalogright{
+    margin-left: 30px;
+    text-align: center;
+}
+.catalog .container .catalogleft h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2C2C2C
+}
+.catalog .container .catalogleft p{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+text-align: center;
+
+color: #A79997;
+
+}
+.catalog .container .catalogcenterleft h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2C2C2C
+}
+.catalog .container .catalogcenterleft p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    text-align: center;
+    
+    color: #A79997;
+}
+.catalog .container .catalogcenterright h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2C2C2C
+}
+.catalog .container .catalogcenterright p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    text-align: center;
+    
+    color: #A79997;
+}
+.catalog .container .catalogright h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #2C2C2C
+}
+.catalog .container .catalogright p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    text-align: center;
+    
+    color: #A79997;
+}
+.worlds .container{
+    display: flex;
+    width: 100%;
+}
+.worlds .container .leftworld h1{
+    font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 65px;
+
+color: #2C2C2C;
+
+}
+.worlds .container .leftworld p{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+
+color: #A79997;
+}
+.worlds .container .leftworld{
+    width: 30%;
+}
+.worlds .container .rightworld{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.worlds .container .leftworld button{
+    padding: 10px 30px;
+    margin-top: 5%;
+    margin-left: 0%;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+border: 1px solid #FF715B;
+background: #FF715B;;
+color: white;
+}
+.worlds .container .rightworld img{
+    margin-right: 20px;
+    margin-left: 30px;
+}
+.tours .container{
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+}
+.tours .container .right{
+    margin-top: 140px;
+}
+.tours .container .right h1{
+    font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 65px;
+
+color: #2C2C2C;
+
+}
+.tours .container .right h4{
+    font-style: normal;
+    margin-top: 60px;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+}
+.tours .container .right p{
+    font-style: normal;
+    margin-top: 15px;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+
+color: #A79997;
+}
+.tours .container .right h2{
+    font-style: normal;
+    margin-top: 60px;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+
+}
+.tours .container .right h3{
+    font-style: normal;
+    margin-top: 90px;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+}
+.tours .container .right .linia{
+    margin-top: 40px;
+}
+.santorinis .container{
+    width: 100%;
+    display: flex;
+}
+.santorinis h1{
+    text-align: center;
+    font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+
+color: #2C2C2C;
+margin-bottom: 100px;
+}
+.santorinis .container .leftlogo{
+    margin-left: 280px;
+    margin-bottom: 30px;
+}
+.santorinis .container .rightlogo{
+    margin-bottom: 30px;
+}
+.santorinis button{
+    padding: 10px 30px;
+    margin-top: 20%;
+    margin-left: 150px;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+border: 1px solid #FF715B;
+background: #FF715B;;
+color: white;
+text-align: center;
+}
+.humans .container{
+    width: 100%;
+    display: flex;
+    
+}
+.humans .container .center{
+    width: 35%;
+    margin-left: 500px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.humans h1{
+    margin-top: 200px;
+    text-align: center;
+    font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+
+color: #2C2C2C;
+
+}
+.humans .container .center h2{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+}
+.humans .container .center p{
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+text-align: center;
+
+color: #A79997;
+
+}
+.humans .container .center .ellipse27e{
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FF715B;
+}
+/*.humans .container .left .img15{
+    border-radius: 100px;
+    border: 3px solid  #C549FF;
+    box-shadow: 0 0 7px #666;
+margin: 20px 80px;
+}
+.humans .container .left .img14{
+    border-radius: 100px;
+    border: 3px solid  #FFCA45;
+    box-shadow: 0 0 7px #666;
+    margin: 20px 70px;
+}
+.humans .container .left .img13{
+    border-radius: 100px;
+    border: 3px solid  #5F45FF;
+    box-shadow: 0 0 7px #666;
+    margin: 30px 60px;
+}
+.humans .container .left .img12{
+    border-radius: 100px;
+    border: 3px solid  #FF4567;
+    box-shadow: 0 0 7px #666;
+    margin: 30px 60px;
+    margin-top: px;
+    margin-left: ;
+}
+.humans .left{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+}*/
+.travels .container img{
+    width: 100%;
+}
+.footer .container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.footer .container .left p{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+
+color: #A79997;
+}
+.footer .container .left{
+    width: 35%;
+}
+.footer .container .left i{
+    font-style: normal;
+    
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+
+color: #A79997;
+
+}
+.footer .container .leftcenter p{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 42px;
+/* or 233% */
+
+
+color: #A79997;
+}
+.footer .container .leftcenter{
+    width: 15%;
+    margin-left: 30px;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .container .leftcenter h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 26px;
+/* identical to box height, or 93% */
+
+
+color: #000000;
+
+
+}
+.footer .container .right h1{
+    margin-bottom: 50px;
+    font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 26px;
+/* identical to box height, or 93% */
+
+
+color: #000000;
+}
+.footer .container .right button{
+    padding: 10px;
+    margin-top: 40px;
+    
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+border: 1px solid #FF715B;
+background: #FF715B;;
+color: white;
+}
+.footer .container .right{
+    margin-left: 40px;
+}
+.line{
+    background-color: #E0E0E0;
+    height: 1px;
+    margin-top: 50px;
+}
+footer h1{
+    margin-top: 20px;
+    
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #A79997;
+}
+#menu{
+    display: none;
+}
+@media (max-width: 576px) {
+    #menu{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .right__content{
+        display: none;
+    }
+    .container{
+        width: 90%;
+    }
+    .main{
+        height: 50vh;
+    }
+    .main .main__texts h1{
+        line-height: 30px;
+        font-size: 30px;
+    }
+    .destination{
+        display: none;
+    }
+    .destinationfirst{
+        display: none;
+    }
+    .catalog .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .catalog .container {
+        width: 0 auto;
+        margin-top: 275px;
+        margin-bottom: 0 auto;
+    }
+    .worlds .container{
+        display: block;
+        width: 100%;
+        
+    }
+    .worlds .container .rightworld {
+        display: flex;
+        flex-direction: column;
+    }
+    .worlds .container .rightworld img{
+        margin-left: 0 auto;
+    }
+    .worlds .container{
+        margin-left: 50px;
+    }
+    .tours .container{
+        display: block;
+width: 0 auto;
+    }
+    .tours .container .left{
+        display: none;
+    }
+    .santorinis .container .leftlogo img{
+        display: none;
+    }
+
+}
